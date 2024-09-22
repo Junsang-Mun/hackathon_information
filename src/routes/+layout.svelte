@@ -9,7 +9,7 @@
 	  SkipToContent,
 	  Content,
 	} from "carbon-components-svelte";
-	import { Fade, Cloud, Map } from "carbon-icons-svelte";
+	import { Fade, Cloud, Map, Warning } from "carbon-icons-svelte";
   
 	let isSideNavOpen = false;
 </script>
@@ -25,6 +25,7 @@
 	  <SideNavLink icon={Fade} text="Welcome" href="/" />
 	  <SideNavLink icon={Cloud} text="Weather" href="/weather" />
 	  <SideNavLink icon={Map} text="Places to Visit" href="/places" />
+	  <SideNavLink icon={Warning} text="In case of emergency" href="/emergency" />
 	  <SideNavDivider />
 	  <SideNavLink text="Seocho Cluster" href="/cluster/seocho" />
 	  <SideNavLink text="Gaepo Cluster" href="/cluster/gaepo" />
