@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { onMount } from 'svelte';
 	let data = null;
 	let error = null;
@@ -26,4 +26,8 @@
 	<div>
 	<pre>{JSON.stringify(data, null, 2)}</pre>
 	</div>
-{/if}
+{/if} -->
+
+<h1>Weather</h1>
+<hr/>
+<p>Weather data is not available</p>
