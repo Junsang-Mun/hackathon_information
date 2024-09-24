@@ -1,4 +1,6 @@
 <script>
+	import { Grid, Row, Column } from "carbon-components-svelte";
+
     // 역 이름을 저장하는 배열
     let stations = [
         { name: "Gangnam Station", line: "Shinbundang Line", color: "red" },
@@ -21,12 +23,6 @@
         font-size: 14px;
         fill: black;
         text-anchor: start; /* 텍스트를 시작 지점에서 정렬 */
-    }
-
-    .transfer {
-        font-size: 12px;
-        fill: gray;
-        text-anchor: middle;
     }
 
     .circle {
@@ -59,3 +55,23 @@
         </text>
     {/each}
 </svg>
+
+<Grid>
+	<Row>
+		<Column><h5>Time</h5></Column>
+		<Column><h5>Highlights</h5></Column>
+	</Row>
+	<Row>
+		<Column><p>13:00</p></Column>
+		<Column><p>Gwanghwamun Square</p></Column>
+	</Row>
+	<Row>
+		<Column><p>14:00</p></Column>
+		<Column><p>Palace Royal Guard Changing Ceremony</p></Column>
+	</Row>
+	<Row>
+		<Column><p>15:00</p></Column>
+		<Column><p>Blue House tour</p></Column>
+	</Row>
+</Grid>
+
