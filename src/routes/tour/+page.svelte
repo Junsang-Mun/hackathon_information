@@ -1,6 +1,5 @@
 <script>
 	import { Grid, Row, Column } from "carbon-components-svelte";
-
     // 역 이름을 저장하는 배열
     let stations = [
         { name: "Gangnam Station", line: "Shinbundang Line", color: "red" },
@@ -28,6 +27,12 @@
     .circle {
         r: 10;
     }
+
+    .paragraph {
+        font-size: 12px;
+        fill: black;
+        text-anchor: middle; /* 텍스트를 중간에 정렬 */
+    }
 </style>
 
 <svg width="400" height="400">
@@ -54,7 +59,17 @@
             {station.name}
         </text>
     {/each}
+
+    <!-- Insert paragraph between stations -->
+    <text x="185" y="125" class="paragraph" alignment-baseline="middle">
+        4 minutes, 3 stops
+    </text>
+    
+    <text x="185" y="275" class="paragraph" alignment-baseline="middle">
+        18 minutes, 10 stops
+    </text>
 </svg>
+
 
 <Grid>
 	<Row>
