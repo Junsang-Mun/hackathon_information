@@ -67,7 +67,7 @@
     
     <text x="200" y="275" class="paragraph" alignment-baseline="middle">
         line 3, 18 minutes, 10 stops
-    </text
+	</text>
 </svg>
 
 
