@@ -61,13 +61,13 @@
     {/each}
 
     <!-- Insert paragraph between stations -->
-    <text x="185" y="125" class="paragraph" alignment-baseline="middle">
-        4 minutes, 3 stops
+    <text x="230" y="125" class="paragraph" alignment-baseline="middle">
+        Shinbundang line, 4 minutes, 3 stops
     </text>
     
-    <text x="185" y="275" class="paragraph" alignment-baseline="middle">
-        18 minutes, 10 stops
-    </text>
+    <text x="200" y="275" class="paragraph" alignment-baseline="middle">
+        line 3, 18 minutes, 10 stops
+	</text>
 </svg>
 
 
